@@ -159,7 +159,7 @@ int main(){
     lireEtudiant((Ntab+i));
     Ntab[i].note_moyenne=calculerMoyennePonderee(Ntab[i]);
     }
-        printf("\nla classe a un moyenne zeid, est%f",calculerMoyenne(sommeNoteRecursive(Ntab,nouveau_nbreEtudiant,nouveau_nbreEtudiant),nouveau_nbreEtudiant));
+        printf("\nNOOOOOOOOOOOOOOOOOOOOOOOOOO, est%f",calculerMoyenne(sommeNoteRecursive(Ntab,nouveau_nbreEtudiant,nouveau_nbreEtudiant),nouveau_nbreEtudiant));
 
 }while(nbreEtudiant_ajoute);
 free(tab);//liberer le tableau;

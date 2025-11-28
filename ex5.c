@@ -151,7 +151,7 @@ int main(){
     en utilisant realloc qui cous permettra d'ajouter des nouveaux étudiants*/
     tab=Ntab;//resaisi l'adresse de tab;
     if(Ntab==NULL){
-        printf("memory failed to aoizdllocate");
+        printf("memory kdaaaaaaba to aoizdllocate");
         return 1;
     }
     for(int i=nbreEtudiant;i<nouveau_nbreEtudiant;i++)

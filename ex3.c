@@ -19,10 +19,10 @@ int lire_nbre_etudiant(){
     return taille;
 }
 void lireTableauEtudiant(stEtudiantRepere *etudiant_info,int num_etudiat){
-    printf("\n******Entrez les informations d\'etudiant numéro : %d***********\n",num_etudiat+1);
-    printf("entrez votre nom : \n");
+    printf("\n****** Bonjour Prof .Entrez les informations d\'etudiant numéro : %d***********\n",num_etudiat+1);
+    printf("entrez votre nom :-) \n");
     scanf("%s",etudiant_info->nom);
-    printf("entrez votre age : \n");
+    printf("entrez votre age :-) \n");
     scanf("%d",&etudiant_info->age);
     printf("entrez votre note : \n");
     scanf("%f",&etudiant_info->note);

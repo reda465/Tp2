@@ -16,7 +16,7 @@ float sommeNoteRecursive(int nbre_deModule,const int valeur_fixe)
     return note+sommeNoteRecursive(i,valeur_fixe);
 }
 void EcrireLaSomme(float sum){
-    printf("la moynne = %f ",sum);
+    printf("la moynne = est : %f ",sum);
 }
 float calculerMoyenne(float somme,int nbre_deModule){
     return somme/nbre_deModule;

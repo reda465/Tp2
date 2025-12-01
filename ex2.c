@@ -13,7 +13,7 @@ typedef struct {
 }stEtudiantRepere;
 int lire_nbre_etudiant(){
     int taille;
-    printf("entrez combien d'etidiant voulez vous entrer : ");
+    printf("entrez combien d'etudiant voulez vous entrer : ");
     scanf("%d",&taille);
     return taille;
 }

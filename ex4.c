@@ -11,7 +11,7 @@ float sommeNoteRecursive(int nbre_deModule,const int valeur_fixe)
     int i=nbre_deModule-1;
     int counter=valeur_fixe-i;
     if (nbre_deModule==0) return 0;
-    printf("la note du module N' : %d ",counter);
+    printf("la note module N est  : %d ",counter);
     scanf("%d",&note);
     return note+sommeNoteRecursive(i,valeur_fixe);
 }
